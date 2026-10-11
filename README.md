@@ -58,6 +58,10 @@ const int SAMPLE_COUNT         = 20;     // Muestras promediadas
 bool readSensorRaw(long &rawData);
 bool getAverageAndStdDev(double &meanVal, double &stdDevVal);
 double computeReferencePressure(double vj);
+
+```markdown
+---
+
 ## 5. Resultados Metrológicos y Respuesta Físico-Digital
 
 ### Tabla Consolidada de Parámetros Medidos y Calculados
