@@ -214,9 +214,9 @@ void processIncomingCommand(String rawInput) {
   } else {
     Serial.println("# ERROR: Fallo en la lectura del sensor");
   }
-}
+}```
 
-## 5. Resultados Metrológicos y Respuesta Físico-Digital
+```## 5. Resultados Metrológicos y Respuesta Físico-Digital
 
 ### Tabla Consolidada de Parámetros Medidos y Calculados
 
