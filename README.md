@@ -34,7 +34,6 @@ El transductor piezoresistivo en puente de Wheatstone se acopla al ADC $\Sigma-\
 
 ---
 
-```markdown
 ## 4. Código Fuente de Adquisición (`caracterizacion_presion.ino`)
 
 El firmware implementado en el ESP32 lee los 24 bits del conversor mediante la manipulación directa de reloj en SCK, promedia un bloque de $N=20$ muestras y evalúa la presión de referencia calculada mediante la Ley de Boyle:
